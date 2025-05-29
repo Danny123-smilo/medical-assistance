@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DANNY CARE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service {
+      flex: 1 1 250px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .service h3 {
+      color: #004aad;
+    }
+    .contact {
+      background: #e8f0ff;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    .contact a {
+      color: #004aad;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #004aad;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .services {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DANNY CARE</h1>
+    <p>Quality medical support, delivered with care</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Welcome to DANNY CARE! We provide essential medical services to support your health and well-being. Whether you need medicine delivered, prescriptions filled, or direct medical assistance, we're here to help — quickly, reliably, and with care.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Delivery of Medication</h3>
+        <p>Fast and reliable delivery of your prescribed medicines right to your door.</p>
+      </div>
+      <div class="service">
+        <h3>Prescription of Medicine</h3>
+        <p>Consult with certified professionals for accurate and trusted prescriptions.</p>
+      </div>
+      <div class="service">
+        <h3>Medical Assistance</h3>
+        <p>Friendly and professional support for your medical needs, anytime you need it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:dannysmilo083@gmail.com">dannysmilo083@gmail.com</a></p>
+    <p>Phone: <a href="tel:+27791270724">079 127 0724</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 DANNY CARE. All rights reserved.
+  </footer>
+
+</body>
+</html>
