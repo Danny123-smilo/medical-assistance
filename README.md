@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="google-site-verification" content="Hdc1Z5iRvX7ptFIC72na7HXMMzE_K5NzcweguzwYN8I" />
+ <meta name="google-site-verification" content="Hdc1Z5iRvX7ptFIC72na7HXMMzE_K5NzcweguzwYN8I" />
   <title>DANNY CARE</title>
 
   <!-- SEO Meta Tags -->
