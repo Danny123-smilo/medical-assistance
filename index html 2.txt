@@ -4,8 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>DANNY CARE</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="DANNY CARE - Delivery of medication, prescription, and medical assistance. Contact us at dannysmilo083@gmail.com or 079 127 0724." />
+  <meta name="keywords" content="medical assistance, medication delivery, prescription, healthcare, DANNY CARE" />
+  <meta name="author" content="Danny Smilo" />
+  <meta property="og:title" content="DANNY CARE - Medical Services" />
+  <meta property="og:description" content="Reliable delivery of medication, prescriptions, and medical assistance. Contact us today!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dannysmilo.github.io" />
+  <!-- Optional: Add your logo image URL below or remove the line -->
+  <!-- <meta property="og:image" content="https://yourdomain.com/path-to-logo.png" /> -->
+
   <!-- Google Fonts Open Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
   <style>
     /* Reset & base */
     * {
@@ -142,6 +155,42 @@
       color: #004aad;
       font-weight: 600;
     }
+    /* Form Styling */
+    form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #004aad;
+      text-align: left;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+      font-size: 1rem;
+      font-family: 'Open Sans', Arial, sans-serif;
+      resize: vertical;
+    }
+    form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #004aad;
+      border: none;
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #0066ff;
+    }
     /* Footer */
     footer {
       background: #004aad;
@@ -162,7 +211,6 @@
       nav {
         justify-content: space-between;
       }
-      /* Optional: add mobile nav toggle if you want, otherwise keep simple */
     }
   </style>
 </head>
@@ -211,6 +259,18 @@
 
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required />
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit" class="btn">Send Message</button>
+    </form>
     <p>Email: <a href="mailto:dannysmilo083@gmail.com">dannysmilo083@gmail.com</a></p>
     <p>Phone: <a href="tel:+0791270724">079 127 0724</a></p>
   </section>
@@ -221,4 +281,3 @@
 
 </body>
 </html>
-update site design
