@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Business</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 40px; background: #f9f9f9; }
+    h1 { color: #333; }
+    .cta { margin-top: 20px; padding: 10px 20px; background: #007BFF; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Business</h1>
+  <p>We offer top-notch services to help your business grow.</p>
+  <button class="cta">Contact Us</button>
+</body>
+</html>
